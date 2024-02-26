@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-26T17:49:26 GMT" name="Automation" finished-at="2024-02-26T17:50:00 GMT" duration-ms="34268">
+    <groups>
+    </groups>
+    <test started-at="2024-02-26T17:49:26 GMT" name="Task 1" finished-at="2024-02-26T17:49:44 GMT" duration-ms="18042">
+      <class name="testCases.FirstTestCase">
+        <test-method is-config="true" signature="initialiseBrowser()[pri:0, instance:testCases.FirstTestCase@443118b0]" started-at="2024-02-26T17:49:26 GMT" name="initialiseBrowser" finished-at="2024-02-26T17:49:29 GMT" duration-ms="3696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="LaunchApp(java.lang.String)[pri:0, instance:testCases.FirstTestCase@443118b0]" started-at="2024-02-26T17:49:30 GMT" name="LaunchApp" finished-at="2024-02-26T17:49:35 GMT" duration-ms="5688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://octopus.evs.online/app/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method signature="EnterLogindetails(java.lang.String,java.lang.String)[pri:0, instance:testCases.FirstTestCase@443118b0]" started-at="2024-02-26T17:49:35 GMT" name="EnterLogindetails" finished-at="2024-02-26T17:49:36 GMT" duration-ms="433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[candidate.s1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[orange]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterLogindetails -->
+        <test-method signature="EquipmentReport(java.lang.String)[pri:0, instance:testCases.FirstTestCase@443118b0]" started-at="2024-02-26T17:49:36 GMT" name="EquipmentReport" finished-at="2024-02-26T17:49:43 GMT" duration-ms="7743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Equipment Report123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EquipmentReport -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.FirstTestCase@443118b0]" started-at="2024-02-26T17:49:43 GMT" name="Teardown" finished-at="2024-02-26T17:49:44 GMT" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testCases.FirstTestCase -->
+    </test> <!-- Task 1 -->
+    <test started-at="2024-02-26T17:49:44 GMT" name="Task 2" finished-at="2024-02-26T17:50:00 GMT" duration-ms="16191">
+      <class name="testCases.SecondTestCase">
+        <test-method is-config="true" signature="initialiseBrowser()[pri:0, instance:testCases.SecondTestCase@6f03482]" started-at="2024-02-26T17:49:44 GMT" name="initialiseBrowser" finished-at="2024-02-26T17:49:46 GMT" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="LaunchApp(java.lang.String)[pri:0, instance:testCases.SecondTestCase@6f03482]" started-at="2024-02-26T17:49:46 GMT" name="LaunchApp" finished-at="2024-02-26T17:49:52 GMT" duration-ms="5830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://octopus.evs.online/app/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method signature="EnterLogindetails(java.lang.String,java.lang.String)[pri:0, instance:testCases.SecondTestCase@6f03482]" started-at="2024-02-26T17:49:52 GMT" name="EnterLogindetails" finished-at="2024-02-26T17:49:53 GMT" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[candidate.s1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[orange]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterLogindetails -->
+        <test-method signature="SearchResults(java.lang.String,java.lang.String)[pri:0, instance:testCases.SecondTestCase@6f03482]" started-at="2024-02-26T17:49:53 GMT" name="SearchResults" finished-at="2024-02-26T17:49:59 GMT" duration-ms="6812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Incident123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ppop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchResults -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.SecondTestCase@6f03482]" started-at="2024-02-26T17:49:59 GMT" name="Teardown" finished-at="2024-02-26T17:50:00 GMT" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testCases.SecondTestCase -->
+    </test> <!-- Task 2 -->
+  </suite> <!-- Automation -->
+</testng-results>
