@@ -128,7 +128,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation" title="testCases.SecondTestCase" class="method navigator-link" hash-for-method="SearchResults(New Incident123, ppop)">SearchResults(New Incident123, ppop)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation" title="testCases.SecondTestCase" class="method navigator-link" hash-for-method="SearchResults(New Incident123, PQRST)">SearchResults(New Incident123, PQRST)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Automation -->
@@ -167,10 +167,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SearchResults(New Incident123, ppop)">
-                  </a> <!-- SearchResults(New Incident123, ppop) -->
+                  <a name="SearchResults(New Incident123, PQRST)">
+                  </a> <!-- SearchResults(New Incident123, PQRST) -->
                   <span class="method-name">SearchResults</span>
-                  <span class="parameters">(New Incident123,ppop)</span>
+                  <span class="parameters">(New Incident123,PQRST)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -234,7 +234,7 @@
   &lt;/test&gt; &lt;!-- Task 1 --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Task 2&quot;&gt;
     &lt;parameter name=&quot;Titlename&quot; value=&quot;New Incident123&quot;/&gt;
-    &lt;parameter name=&quot;Code&quot; value=&quot;ppop&quot;/&gt;
+    &lt;parameter name=&quot;Code&quot; value=&quot;PQRST&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.SecondTestCase&quot;&gt;
         &lt;methods&gt;
@@ -289,27 +289,27 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'EquipmentReport')
 data.setCell(0, 2, 'testCases.FirstTestCase')
-data.setCell(0, 3, 7743);
+data.setCell(0, 3, 7534);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'SearchResults')
 data.setCell(1, 2, 'testCases.SecondTestCase')
-data.setCell(1, 3, 6812);
+data.setCell(1, 3, 6023);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'LaunchApp')
-data.setCell(2, 2, 'testCases.SecondTestCase')
-data.setCell(2, 3, 5830);
+data.setCell(2, 2, 'testCases.FirstTestCase')
+data.setCell(2, 3, 6000);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'LaunchApp')
-data.setCell(3, 2, 'testCases.FirstTestCase')
-data.setCell(3, 3, 5688);
+data.setCell(3, 2, 'testCases.SecondTestCase')
+data.setCell(3, 3, 5951);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'EnterLogindetails')
 data.setCell(4, 2, 'testCases.FirstTestCase')
-data.setCell(4, 3, 433);
+data.setCell(4, 3, 412);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'EnterLogindetails')
 data.setCell(5, 2, 'testCases.SecondTestCase')
-data.setCell(5, 3, 417);
+data.setCell(5, 3, 411);
 window.suiteTableData['Automation']= { tableData: data, tableDiv: 'times-div-Automation'}
 return data;
 }
@@ -347,42 +347,42 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">LaunchApp(https://octopus.evs.online/app/login)</span>
-                <span class="method-start">3754 ms</span>
+                <span class="method-start">3761 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">EnterLogindetails(candidate.s1, orange)</span>
-                <span class="method-start">9458 ms</span>
+                <span class="method-start">9769 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">EquipmentReport(Equipment Report123)</span>
-                <span class="method-start">9912 ms</span>
+                <span class="method-start">10193 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">17660 ms</span>
+                <span class="method-start">17732 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.SecondTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialiseBrowser</span>
-                <span class="method-start">18060 ms</span>
+                <span class="method-start">18148 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">LaunchApp(https://octopus.evs.online/app/login)</span>
-                <span class="method-start">20546 ms</span>
+                <span class="method-start">20691 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">EnterLogindetails(candidate.s1, orange)</span>
-                <span class="method-start">26386 ms</span>
+                <span class="method-start">26649 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">SearchResults(New Incident123, ppop)</span>
-                <span class="method-start">26807 ms</span>
+                <span class="method-name">SearchResults(New Incident123, PQRST)</span>
+                <span class="method-start">27069 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">33626 ms</span>
+                <span class="method-start">33105 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

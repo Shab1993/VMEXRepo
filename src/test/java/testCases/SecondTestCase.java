@@ -25,9 +25,9 @@ public class SecondTestCase extends BaseClass{
         //click  on Exportbug.MP4                                                                        	
 		driver.findElement(By.xpath("//div[@class='thumb-content']")).click();
 	
-		//click on Create NEW Incident Button
-		//driver.findElement(By.xpath("(//a[@aria-label='Create new incident'])[1]")).click();
-		driver.findElement(By.xpath("//a[@aria-label='Create new event']")).click();
+		//click on Create NEW Incident/Event Button
+		  driver.findElement(By.xpath("(//a[@aria-label='Create new incident'])[1]")).click();
+	//    driver.findElement(By.xpath("//a[@aria-label='Create new event']")).click();
 		
 		//input the Title of New Event dynamically
 		driver.findElement(By.id("inputCustom55")).sendKeys(title);
@@ -38,18 +38,18 @@ public class SecondTestCase extends BaseClass{
 		//input reference code dynamically from XML file
 		driver.findElement(By.xpath("//input[@id='inputCustom59']")).sendKeys(code);
 		
-	    //click on Create Incident button
-		//driver.findElement(By.xpath("(//button[normalize-space()='Create incident'])[1]")).click();
-		driver.findElement(By.xpath("//button[normalize-space()='Create event']")).click();
+	    //click on Create Incident/Event button
+		driver.findElement(By.xpath("(//button[normalize-space()='Create incident'])[1]")).click();
+	//  driver.findElement(By.xpath("//button[normalize-space()='Create event']")).click();
 		
 		Thread.sleep(1000);  
 		
 		
-		//click on Incidents  button
-		//driver.findElement(By.xpath("//a[normalize-space()='Incidents']")).click();
-		driver.findElement(By.xpath("//a[normalize-space()='Events']")).click();
+		//click on Incidents/Events  button
+		driver.findElement(By.xpath("//a[normalize-space()='Incidents']")).click();
+	//	driver.findElement(By.xpath("//a[normalize-space()='Events']")).click();
 		
-		//click on Search Events 
+		//click on Search Events/Incidents 
 		//driver.findElement(By.xpath("//body/div[@class='wrapper']/div[@id='childNavRegion']/div[@class='child-nav-bar']/ul[@role='tablist']/li[3]/a[1]")).click();
 		driver.findElement(By.xpath("(//a[contains(@class,'navigationLink')])[9]")).click();
 
@@ -60,9 +60,9 @@ public class SecondTestCase extends BaseClass{
 		driver.findElement(By.xpath("//input[@id='filterCustom59']")).sendKeys(code);
 		
 		
-		//click on Find Incidents
-		//driver.findElement(By.xpath("(//button[normalize-space()='Find incidents'])[1]")).click();
-		driver.findElement(By.xpath("//button[normalize-space()='Find events']")).click();
+		//click on Find Incidents/Events
+	    driver.findElement(By.xpath("(//button[normalize-space()='Find incidents'])[1]")).click();
+	//	driver.findElement(By.xpath("//button[normalize-space()='Find events']")).click();
 		
 	
 		//Get the Title of New Event

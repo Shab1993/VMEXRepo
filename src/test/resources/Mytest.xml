@@ -6,7 +6,7 @@
 	<parameter name="password" value="orange"/>
 	
  <test name="Task 1">
-	  <parameter name="Inputname" value="Equipment Report"/>
+	  <parameter name="Inputname" value="Equipment Report123"/>
     <classes>
       <class name="testCases.FirstTestCase">
       <methods>
@@ -19,8 +19,8 @@
   </test>  
   
    <test name="Task 2">
-	  <parameter name="Titlename" value="New Incident"/>
-	  <parameter name="Code" value="PQRS"/>
+	  <parameter name="Titlename" value="New Incident123"/>
+	  <parameter name="Code" value="PQRST"/>
     <classes>
       <class name="testCases.SecondTestCase">
       <methods>

@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Automation]" guice-stage="DEVELOPMENT">
-  <parameter name="password" value="orange"/>
-  <parameter name="url" value="https://octopus.evs.online/app/login"/>
-  <parameter name="username" value="candidate.s1"/>
-  <test thread-count="5" name="Task 2(failed)">
-    <parameter name="Titlename" value="New Incident"/>
-    <parameter name="Code" value="ppop"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.SecondTestCase">
+      <class name="testBase.BaseClass">
         <methods>
-          <include name="SearchResults" invocation-numbers="0"/>
+          <include name="EnterLogindetails"/>
           <include name="initialiseBrowser"/>
           <include name="Teardown"/>
+          <include name="LaunchApp"/>
         </methods>
-      </class> <!-- testCases.SecondTestCase -->
+      </class> <!-- testBase.BaseClass -->
     </classes>
-  </test> <!-- Task 2(failed) -->
-</suite> <!-- Failed suite [Automation] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
